@@ -703,6 +703,7 @@
 		<Item Name="VI Server Toolkit LV2013.lvlib" Type="Library" URL="../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server Toolkit LV2013.lvlib"/>
 		<Item Name="NI_Word.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Word/NI_Word.lvclass"/>
 		<Item Name="ExecEng_SortTestCasesFile.vi" Type="VI" URL="../SubVIs/ExEng_Utilities.llb/ExecEng_SortTestCasesFile.vi"/>
+		<Item Name="ExecEng_RunALL_TestCase_QueryInstruments.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_RunALL_TestCase_QueryInstruments.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
