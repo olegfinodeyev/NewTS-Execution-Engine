@@ -1317,7 +1317,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35AF9D9A-ACD1-4CD4-807C-AFD0A9A37BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NewTS_ExecutionEngine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NewTS_ExecutionEngine.exe</Property>
@@ -1333,7 +1333,7 @@
 				<Property Name="Destination[4].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/Configuration</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/NewTS_ExecEng.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E01B2F18-C8F3-4836-9B53-AB301061028C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0837A234-EAFF-4FED-BC08-88FF7C5CBF95}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NewTS-ExecutionEngine.vi</Property>
