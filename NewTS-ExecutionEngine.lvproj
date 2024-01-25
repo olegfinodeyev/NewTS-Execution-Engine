@@ -695,6 +695,7 @@
 			<Item Name="Windows Registry Manipulation.vi" Type="VI" URL="../Support/Windows Registry Manipulation.vi"/>
 		</Item>
 		<Item Name="ExEng_MAIN.rtm" Type="Document" URL="../ExEng_MAIN.rtm"/>
+		<Item Name="Memory_UserMenu.rtm" Type="Document" URL="../Memory_UserMenu.rtm"/>
 		<Item Name="NewTS-ExecutionEngine.vi" Type="VI" URL="../NewTS-ExecutionEngine.vi"/>
 		<Item Name="NewTS-ExecutionEngine.cfg" Type="Document" URL="../NewTS-ExecutionEngine.cfg"/>
 		<Item Name="NewTS-Execution Engine.ini" Type="Document" URL="../NewTS-Execution Engine.ini"/>
@@ -1317,7 +1318,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35AF9D9A-ACD1-4CD4-807C-AFD0A9A37BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NewTS_ExecutionEngine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NewTS_ExecutionEngine.exe</Property>
@@ -1333,12 +1334,15 @@
 				<Property Name="Destination[4].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/Configuration</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/NewTS_ExecEng.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0837A234-EAFF-4FED-BC08-88FF7C5CBF95}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13FD69D5-98C9-42AA-9DD2-99D99192513A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NewTS-ExecutionEngine.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/ExEng_MAIN.rtm</Property>
+				<Property Name="Source[10].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NewTS-ExecutionEngine.cfg</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NewTS-Execution Engine.ini</Property>
@@ -1369,7 +1373,11 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Configuration</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Memory_UserMenu.rtm</Property>
+				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NewTS_Execution Engine Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">NewTS_Execution Engine Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
