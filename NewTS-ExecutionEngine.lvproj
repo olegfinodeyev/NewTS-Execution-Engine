@@ -26,6 +26,7 @@
 			<Item Name="Users.cfg" Type="Document" URL="../Configuration/Users.cfg"/>
 			<Item Name="UserLastSelection.cfg" Type="Document" URL="../Configuration/UserLastSelection.cfg"/>
 		</Item>
+		<Item Name="NumMem" Type="Folder"/>
 		<Item Name="Failed Test Logs" Type="Folder">
 			<Item Name="Failed Test Log.txt" Type="Document" URL="../Failed Test Logs/Failed Test Log.txt"/>
 		</Item>
@@ -1323,7 +1324,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35AF9D9A-ACD1-4CD4-807C-AFD0A9A37BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">90</Property>
+				<Property Name="Bld_version.build" Type="Int">96</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NewTS_ExecutionEngine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NewTS_ExecutionEngine.exe</Property>
@@ -1337,9 +1338,11 @@
 				<Property Name="Destination[3].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/UUT</Property>
 				<Property Name="Destination[4].destName" Type="Str">Configuration</Property>
 				<Property Name="Destination[4].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/Configuration</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Destination[5].destName" Type="Str">NumMem</Property>
+				<Property Name="Destination[5].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NumMem</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/NewTS_ExecEng.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49DAB12E-C0CC-4195-93EA-ABE5870F8564}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{144D659D-7638-49B1-8B53-BBCC8DBA2715}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NewTS-ExecutionEngine.vi</Property>
@@ -1348,6 +1351,13 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/ExEng_MAIN.rtm</Property>
 				<Property Name="Source[10].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/NumMem</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NewTS-ExecutionEngine.cfg</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NewTS-Execution Engine.ini</Property>
@@ -1381,7 +1391,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Memory_UserMenu.rtm</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NewTS_Execution Engine Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">NewTS_Execution Engine Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
@@ -1448,7 +1458,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{2EE97DCC-B44C-4FE5-92C8-F3F2CFCA3D4E}</Property>
 				<Property Name="INST_installerName" Type="Str">NewTS-ExecutionEngine_install.exe</Property>
 				<Property Name="INST_productName" Type="Str">NewTS-ExecutionEngine</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.115</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.116</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NewTS, LLC.</Property>
