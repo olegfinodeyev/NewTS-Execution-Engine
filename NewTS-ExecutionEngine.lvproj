@@ -1266,9 +1266,6 @@
 			<Item Name="SEMAPHORE_ClearTimeOutError.vi" Type="VI" URL="../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/MIscellaneous VIs.llb/SEMAPHORE_ClearTimeOutError.vi"/>
 			<Item Name="Login_Convert_ASCII_String_to_BynaryString.vi" Type="VI" URL="../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/Login.llb/Login_Convert_ASCII_String_to_BynaryString.vi"/>
 			<Item Name="Login_ConvertBinaryString_to_ASCII String.vi" Type="VI" URL="../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/Login.llb/Login_ConvertBinaryString_to_ASCII String.vi"/>
-			<Item Name="Semaphore_Acquire.vi" Type="VI" URL="../../../Utility SW/SubVIs Description Editor/builds/SubVIs Description Editor_Code Distribution/Semaphore_Acquire.vi"/>
-			<Item Name="Semaphore_Release.vi" Type="VI" URL="../../../Utility SW/SubVIs Description Editor/builds/SubVIs Description Editor_Code Distribution/Semaphore_Release.vi"/>
-			<Item Name="SEMAPHORE_ClearTimeOutError.vi" Type="VI" URL="../../../Utility SW/SubVIs Description Editor/builds/SubVIs Description Editor_Code Distribution/SEMAPHORE_ClearTimeOutError.vi"/>
 			<Item Name="PCS Run-Time Menu Engineer.rtm" Type="Document" URL="../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/Project Libraries/GHz/Libraries/CODE/PCS Run-Time Menu Engineer.rtm"/>
 			<Item Name="ExecEng_TestExecution_CurrentTestCaseCluster.ctl" Type="VI" URL="../SubVIs/ExEng_TypeDefs.llb/ExecEng_TestExecution_CurrentTestCaseCluster.ctl"/>
 			<Item Name="ExEng_Accessor_DoNotCheckInstrument_Ref.vi" Type="VI" URL="../SubVIs/ExEng_Synchronization.llb/ExEng_Accessor_DoNotCheckInstrument_Ref.vi"/>
