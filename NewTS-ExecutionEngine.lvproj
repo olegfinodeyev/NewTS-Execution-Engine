@@ -166,12 +166,12 @@
 				<Item Name="ExecEng_Function_UserMenu_DisableInstruction_Update_TestCaseConfiguration.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_Function_UserMenu_DisableInstruction_Update_TestCaseConfiguration.vi"/>
 				<Item Name="ExecEng_Function_UserMenu_DisableInstruction_Update_TestConfiguration.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_Function_UserMenu_DisableInstruction_Update_TestConfiguration.vi"/>
 				<Item Name="ExecEng_FunctionSelector_Instrument_Open.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_FunctionSelector_Instrument_Open.vi"/>
-				<Item Name="ExecEng_ImportSequenceFromFile.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile.vi"/>
+				<Item Name="ExecEng_ImportSequenceFromFile.vi" Type="VI" URL="../ExecEng_ImportSequenceFromFile.vi"/>
 				<Item Name="ExecEng_ImportSequenceFromFile_Incert_AfterSelection.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Incert_AfterSelection.vi"/>
 				<Item Name="ExecEng_ImportSequenceFromFile_Incert_At_Bottom.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Incert_At_Bottom.vi"/>
 				<Item Name="ExecEng_ImportSequenceFromFile_Incert_At_Top.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Incert_At_Top.vi"/>
 				<Item Name="ExecEng_ImportSequenceFromFile_Incert_BeforeSelection.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Incert_BeforeSelection.vi"/>
-				<Item Name="ExecEng_ImportSequenceFromFile_Init.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Init.vi"/>
+				<Item Name="ExecEng_ImportSequenceFromFile_Init.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ImportSequenceFromFile_Init.vi"/>
 				<Item Name="ExecEng_ImportSequenceFromFile_Sequence_Open.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_ImportSequenceFromFile_Sequence_Open.vi"/>
 				<Item Name="ExecEng_Instruction_Format.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_Instruction_Format.vi"/>
 				<Item Name="ExecEng_Instrument_Hide_Restore.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_Instrument_Hide_Restore.vi"/>
@@ -698,19 +698,16 @@
 		<Item Name="ExEng_MAIN.rtm" Type="Document" URL="../ExEng_MAIN.rtm"/>
 		<Item Name="Memory_UserMenu.rtm" Type="Document" URL="../Memory_UserMenu.rtm"/>
 		<Item Name="NewTS-ExecutionEngine.vi" Type="VI" URL="../NewTS-ExecutionEngine.vi"/>
+		<Item Name="ExecEng_TestCaseConfig_ImportSeq_SelectSorce.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_TestCaseConfig_ImportSeq_SelectSorce.vi"/>
 		<Item Name="NewTS-ExecutionEngine.cfg" Type="Document" URL="../NewTS-ExecutionEngine.cfg"/>
 		<Item Name="NewTS-Execution Engine.ini" Type="Document" URL="../NewTS-Execution Engine.ini"/>
 		<Item Name="PDFBox-0.7.3.dll" Type="Document" URL="../../DOCs/PDFBox-0.7.3/bin/PDFBox-0.7.3.dll"/>
 		<Item Name="NewTS_ExecEng.ico" Type="Document" URL="../NewTS_ExecEng.ico"/>
 		<Item Name="VI Server Toolkit LV2013.lvlib" Type="Library" URL="../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server Toolkit LV2013.lvlib"/>
 		<Item Name="NI_Word.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Word/NI_Word.lvclass"/>
-		<Item Name="ExecEng_SortTestCasesFile.vi" Type="VI" URL="../SubVIs/ExEng_Utilities.llb/ExecEng_SortTestCasesFile.vi"/>
-		<Item Name="ExecEng_RunALL_TestCase_QueryInstruments.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_RunALL_TestCase_QueryInstruments.vi"/>
-		<Item Name="ExEng_Accessor_NumMemory_Blinking_Ref.vi" Type="VI" URL="../SubVIs/ExEng_Synchronization.llb/ExEng_Accessor_NumMemory_Blinking_Ref.vi"/>
-		<Item Name="EecEng_Get_Current_Date_Time_v2.vi" Type="VI" URL="../SubVIs/ExcEng_Test.llb/EecEng_Get_Current_Date_Time_v2.vi"/>
-		<Item Name="ExecEng_SaveNumMemToFile.vi" Type="VI" URL="../SubVIs/Functions.llb/ExecEng_SaveNumMemToFile.vi"/>
-		<Item Name="ExecEng_LoadNumMem.vi" Type="VI" URL="../SubVIs/Functions.llb/ExecEng_LoadNumMem.vi"/>
-		<Item Name="ExEng_TestConfig_Test_Execute_ALL.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExEng_TestConfig_Test_Execute_ALL.vi"/>
+		<Item Name="ExecEng_ExportSequenceToFile.vi" Type="VI" URL="../ExecEng_ExportSequenceToFile.vi"/>
+		<Item Name="ExecEng_ImportSequence_TestAtributes_SAVE.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ImportSequence_TestAtributes_SAVE.vi"/>
+		<Item Name="ExecEng_ExportSequenceToFile_Init.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ExportSequenceToFile_Init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
@@ -1301,6 +1298,16 @@
 			<Item Name="ExecEng_RunAll.vi" Type="VI" URL="../SubVIs/ExecEng_RunAll.llb/ExecEng_RunAll.vi"/>
 			<Item Name="ExecEng_RunAll_Start_INIT.vi" Type="VI" URL="../SubVIs/ExecEng_RunAll.llb/ExecEng_RunAll_Start_INIT.vi"/>
 			<Item Name="ExecEng_RunAll_START_GUI_Management.vi" Type="VI" URL="../SubVIs/ExecEng_RunAll.llb/ExecEng_RunAll_START_GUI_Management.vi"/>
+			<Item Name="ExecEng_LoadNumMem.vi" Type="VI" URL="../SubVIs/Functions.llb/ExecEng_LoadNumMem.vi"/>
+			<Item Name="ExecEng_SaveNumMemToFile.vi" Type="VI" URL="../SubVIs/Functions.llb/ExecEng_SaveNumMemToFile.vi"/>
+			<Item Name="EecEng_Get_Current_Date_Time_v2.vi" Type="VI" URL="../SubVIs/ExcEng_Test.llb/EecEng_Get_Current_Date_Time_v2.vi"/>
+			<Item Name="ExEng_Accessor_NumMemory_Blinking_Ref.vi" Type="VI" URL="../SubVIs/ExEng_Synchronization.llb/ExEng_Accessor_NumMemory_Blinking_Ref.vi"/>
+			<Item Name="ExEng_TestConfig_Test_Execute_ALL.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExEng_TestConfig_Test_Execute_ALL.vi"/>
+			<Item Name="ExecEng_RunALL_TestCase_QueryInstruments.vi" Type="VI" URL="../SubVIs/ExecEng_TestCaseConfiguration.llb/ExecEng_RunALL_TestCase_QueryInstruments.vi"/>
+			<Item Name="ExecEng_SortTestCasesFile.vi" Type="VI" URL="../SubVIs/ExEng_Utilities.llb/ExecEng_SortTestCasesFile.vi"/>
+			<Item Name="ExecEng_ImportSeq_UserLastSelection_Set_Get.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ImportSeq_UserLastSelection_Set_Get.vi"/>
+			<Item Name="ExecEng_LabelsConstant_UserLastSelection.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_LabelsConstant_UserLastSelection.vi"/>
+			<Item Name="ExecEng_ExportToFile_Sequence_Save.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ExportToFile_Sequence_Save.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewTS_Execution Engine Application" Type="EXE">
