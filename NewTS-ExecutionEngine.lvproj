@@ -705,9 +705,6 @@
 		<Item Name="NewTS_ExecEng.ico" Type="Document" URL="../NewTS_ExecEng.ico"/>
 		<Item Name="VI Server Toolkit LV2013.lvlib" Type="Library" URL="../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server Toolkit LV2013.lvlib"/>
 		<Item Name="NI_Word.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Word/NI_Word.lvclass"/>
-		<Item Name="ExecEng_ExportSequenceToFile.vi" Type="VI" URL="../ExecEng_ExportSequenceToFile.vi"/>
-		<Item Name="ExecEng_ImportSequence_TestAtributes_SAVE.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ImportSequence_TestAtributes_SAVE.vi"/>
-		<Item Name="ExecEng_ExportSequenceToFile_Init.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ExportSequenceToFile_Init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
@@ -1308,6 +1305,8 @@
 			<Item Name="ExecEng_ImportSeq_UserLastSelection_Set_Get.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ImportSeq_UserLastSelection_Set_Get.vi"/>
 			<Item Name="ExecEng_LabelsConstant_UserLastSelection.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_LabelsConstant_UserLastSelection.vi"/>
 			<Item Name="ExecEng_ExportToFile_Sequence_Save.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ExportToFile_Sequence_Save.vi"/>
+			<Item Name="ExecEng_ExportSequenceToFile.vi" Type="VI" URL="../ExecEng_ExportSequenceToFile.vi"/>
+			<Item Name="ExecEng_ExportSequenceToFile_Init.vi" Type="VI" URL="../SubVIs/ExecEng_Import_Export_Sequence.llb/ExecEng_ExportSequenceToFile_Init.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewTS_Execution Engine Application" Type="EXE">
@@ -1328,7 +1327,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35AF9D9A-ACD1-4CD4-807C-AFD0A9A37BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">97</Property>
+				<Property Name="Bld_version.build" Type="Int">98</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NewTS_ExecutionEngine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NewTS_ExecutionEngine.exe</Property>
@@ -1471,7 +1470,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{2EE97DCC-B44C-4FE5-92C8-F3F2CFCA3D4E}</Property>
 				<Property Name="INST_installerName" Type="Str">NewTS-ExecutionEngine_install.exe</Property>
 				<Property Name="INST_productName" Type="Str">NewTS-ExecutionEngine</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.116</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.117</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NewTS, LLC.</Property>
