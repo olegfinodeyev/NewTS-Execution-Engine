@@ -705,8 +705,6 @@
 		<Item Name="NewTS_ExecEng.ico" Type="Document" URL="../NewTS_ExecEng.ico"/>
 		<Item Name="VI Server Toolkit LV2013.lvlib" Type="Library" URL="../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server Toolkit LV2013.lvlib"/>
 		<Item Name="NI_Word.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Word/NI_Word.lvclass"/>
-		<Item Name="ExecEng_PartNumber_CreateTestLogFolder.vi" Type="VI" URL="../SubVIs/ExEng_GUI_Management.llb/ExecEng_PartNumber_CreateTestLogFolder.vi"/>
-		<Item Name="ExecEng_PartNum_LoadSymbols.vi" Type="VI" URL="../SubVIs/ExEng_GUI_Management.llb/ExecEng_PartNum_LoadSymbols.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
@@ -1320,6 +1318,8 @@
 			<Item Name="ExecEng_LimitsType.ctl" Type="VI" URL="../SubVIs/ExEng_TypeDefs.llb/ExecEng_LimitsType.ctl"/>
 			<Item Name="ExEng_Accessor_TestExecution.PauseInInstrumentsFailure_Ref.vi" Type="VI" URL="../SubVIs/ExEng_Synchronization.llb/ExEng_Accessor_TestExecution.PauseInInstrumentsFailure_Ref.vi"/>
 			<Item Name="ExEng_Accessor_UDP_AddressedInstrument_Ref.vi" Type="VI" URL="../SubVIs/ExEng_Synchronization.llb/ExEng_Accessor_UDP_AddressedInstrument_Ref.vi"/>
+			<Item Name="ExecEng_PartNum_LoadSymbols.vi" Type="VI" URL="../SubVIs/ExEng_GUI_Management.llb/ExecEng_PartNum_LoadSymbols.vi"/>
+			<Item Name="ExecEng_PartNumber_CreateTestLogFolder.vi" Type="VI" URL="../SubVIs/ExEng_GUI_Management.llb/ExecEng_PartNumber_CreateTestLogFolder.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NewTS_Execution Engine Application" Type="EXE">
@@ -1340,7 +1340,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{35AF9D9A-ACD1-4CD4-807C-AFD0A9A37BAC}</Property>
-				<Property Name="Bld_version.build" Type="Int">102</Property>
+				<Property Name="Bld_version.build" Type="Int">104</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NewTS_ExecutionEngine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/ExecEng_builds/NewTS_ExecutionEngine_Application/NewTS_ExecutionEngine.exe</Property>
@@ -1483,7 +1483,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{2EE97DCC-B44C-4FE5-92C8-F3F2CFCA3D4E}</Property>
 				<Property Name="INST_installerName" Type="Str">NewTS-ExecutionEngine_install.exe</Property>
 				<Property Name="INST_productName" Type="Str">NewTS-ExecutionEngine</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.121</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.123</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NewTS, LLC.</Property>
@@ -1560,8 +1560,8 @@
 				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{A89F50D9-5E96-4C37-B683-C3665DA2A3AD}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Measurement &amp; Automation Explorer 21.5</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{0E064925-D5CB-45C0-BEE1-F2397F44A168}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Measurement &amp; Automation Explorer 23.8</Property>
 				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
 				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
@@ -1575,7 +1575,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{2EE97DCC-B44C-4FE5-92C8-F3F2CFCA3D4E}</Property>
 				<Property Name="INST_installerName" Type="Str">NuTS-ExecutionEngine_MAXinstall.exe</Property>
 				<Property Name="INST_productName" Type="Str">NuTS-ExecutionEngine</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.14</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_distID" Type="Str">{6783856E-E1AD-4651-A78C-0FBC5DC8A871}</Property>
@@ -1618,7 +1618,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E09CFEA2-9544-422E-8754-F760FDCB71E0}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HASP Configurator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../ExecEng_Builds/HASP Configurator/HASP Configurator_Application/HASP Configurator.exe</Property>
@@ -1698,7 +1698,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">HASP Configurator_install.exe</Property>
 				<Property Name="INST_productName" Type="Str">HASP Configurator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018007</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
